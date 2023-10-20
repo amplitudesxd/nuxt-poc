@@ -3,12 +3,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     baseURL: './',
-    buildAssetsDir: '/',
   },
   runtimeConfig: {
     app: {
       baseURL: './',
-      buildAssetsDir: '/',
     },
   },
   experimental: {
