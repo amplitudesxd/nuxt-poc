@@ -11,4 +11,7 @@ export default defineNuxtConfig({
       buildAssetsDir: '/',
     },
   },
+  experimental: {
+    appManifest: true, // set this to false, then the application starts working
+  },
 });
